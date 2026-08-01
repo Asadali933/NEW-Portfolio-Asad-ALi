@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"> Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Welcome</h1>
+      </div>
+      <main>
+        <section class="first">
+          <div class="leftsection">
+            <img src="first.jpg" alt="Profile Image" />
+          </div>
+          <div class="Rightsection">
+            <p class="lead">
+              I’m Asad ALI, a programmer focused on building clean, efficient, and
+              user-friendly software. I love solving problems and turning ideas
+              into practical digital solutions.
+            </p>
+
+            <!-- GitHub Button -->
+            <a
+              href="https://github.com/Asadali933"
+              target="_blank"
+              class="github-btn"
+            >
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+
+            <!-- Resume Button -->
+            <a href="https://ibb.co/62Dzq5n" download class="resume-btn">
+              <i class="fa-solid fa-file-arrow-down"></i> Resume
+            </a>
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about py-5">
+          <div class="container">
+            <div class="about-content">
+              <!-- Left: Text -->
+              <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                  Hi, I’m <strong>ASAD ALI</strong> a passionate programmer and web
+                  developer. I enjoy creating modern, responsive, and
+                  user-friendly websites. I’m focused on writing clean code and
+                  building efficient digital solutions.My main focus is on
+                  writing efficient code, learning new technologies, and turning
+                  creative ideas into real digital solutions. I believe in
+                  continuous learning and love exploring how design and
+                  functionality come together in development.
+                </p>
+
+                <h3>My Skills</h3>
+                <ul class="skills-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Python</li>
+                  <li>C++</li>
+                  <li>C#</li>
+                </ul>
+              </div>
+
+              <!-- Right: Image -->
+              <div class="about-img">
+                <img src="first.jpg" alt="Usman" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">My Projects</h2>
+
+        <div class="row g-4">
+          <!-- Project 1 -->
+          <div class="col-md-4">
+            <div class="card project-card">
+              <img src="2.jpg" class="card-img-top" alt="2 Screenshot" />
+              <div class="card-body">
+                <h5 class="card-title">Portfolio Website</h5>
+                <p class="card-text">
+                  A clean personal portfolio built with HTML, CSS and
+                  JavaScript. Fully responsive and modern layout.
+                </p>
+                <a
+                  href="https://github.com/Asadali933"
+                  target="_blank"
+                  class="btn btn-dark"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-md-4">
+            <div class="card project-card">
+              <img src="1.jpg" class="card-img-top" alt="1 Screenshot" />
+              <div class="card-body">
+                <h5 class="card-title">shopping store</h5>
+                <p class="card-text">
+                  A shopping store website built with HTML, CSS . Fully
+                  responsive and modern layout in which we buy products.
+                </p>
+                <a
+                  href="https://github.com/Asadali933"
+                  target="_blank"
+                  class="btn btn-dark"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col-md-4">
+            <div class="card project-card">
+              <img src="3.jpg" class="card-img-top" alt="3 Screenshot" />
+              <div class="card-body">
+                <h5 class="card-title">learning Management System(LMS)</h5>
+                <p class="card-text">
+                  A Learning Management system project by using C# and AI assistent .
+                </p>
+                <a
+                  href="https://github.com/Asadali933/LMS-using-C-Sharp-and-AI-ML-model-.git"
+                  target="_blank"
+                  class="btn btn-dark"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---- Cinematic Animated Contact Section ----------->
+    <section id="contact">
+      <div class="container contact-stage">
+        <h2>Contact Me</h2>
+
+        <!-- Interactive Stylish Animated Character Wrapper -->
+        <div id="character-wrapper" class="character-wrapper">
+          <svg id="character-svg" viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+            <g id="character-body">
+              <!-- Left Leg -->
+              <path id="leg-l" class="char-limb" d="M 80 160 L 75 210" stroke="#0f172a" stroke-width="12" stroke-linecap="round"/>
+              <!-- Right Leg -->
+              <path id="leg-r" class="char-limb" d="M 120 160 L 125 210" stroke="#0f172a" stroke-width="12" stroke-linecap="round"/>
+              
+              <!-- Stylish Modern Hoodie / Jacket -->
+              <path d="M 65 95 Q 100 85 135 95 L 128 165 Q 100 172 72 165 Z" fill="#2563eb"/>
+              <!-- Jacket Zipper Line & Inner Tee -->
+              <path d="M 92 92 L 92 167 M 108 92 L 108 167" stroke="#1d4ed8" stroke-width="2"/>
+              <path d="M 92 92 L 100 105 L 108 92" fill="#38bdf8"/>
+
+              <!-- Stylish Backpack / Bag in Hand -->
+              <g id="briefcase">
+                <rect x="20" y="135" width="38" height="30" rx="8" fill="#0f172a"/>
+                <rect x="25" y="142" width="28" height="16" rx="4" fill="#38bdf8"/>
+                <path d="M 34 135 L 34 128 Q 39 124 44 128 L 44 135" fill="none" stroke="#0f172a" stroke-width="3"/>
+              </g>
+
+              <!-- Left Arm -->
+              <path id="arm-l" class="char-limb" d="M 68 100 L 38 138" stroke="#2563eb" stroke-width="12" stroke-linecap="round"/>
+              <!-- Right Arm -->
+              <path id="arm-r" class="char-limb" d="M 132 100 L 150 138" stroke="#2563eb" stroke-width="12" stroke-linecap="round"/>
+
+              <!-- Head Group -->
+              <g id="head-group">
+                <!-- Head Base -->
+                <circle cx="100" cy="62" r="30" fill="#fde047"/>
+                
+                <!-- Cool Stylish Haircut -->
+                <path d="M 65 58 C 65 25, 135 25, 135 58 C 122 35, 78 35, 65 58 Z" fill="#0f172a"/>
+                <path d="M 70 45 Q 95 20 120 38 Q 100 30 80 40 Z" fill="#1e293b"/>
+
+                <!-- Cool Sunglasses -->
+                <g id="sunglasses">
+                  <path d="M 75 54 L 125 54 L 120 70 Q 100 76 80 70 Z" fill="#0f172a"/>
+                  <path d="M 78 57 L 96 57 L 92 66 Q 85 70 80 66 Z" fill="#ffffff" opacity="0.25"/>
+                  <path d="M 104 57 L 122 57 L 118 66 Q 111 70 106 66 Z" fill="#ffffff" opacity="0.25"/>
+                  <line x1="96" y1="58" x2="104" y2="58" stroke="#0f172a" stroke-width="3"/>
+                </g>
+
+                <!-- Cool Smirk Mouth -->
+                <path id="mouth" d="M 92 78 Q 100 84 108 76" stroke="#0f172a" stroke-width="3" fill="none" stroke-linecap="round"/>
+              </g>
+            </g>
+          </svg>
+        </div>
+
+        <!-- Form Wrapper Animated from Bag -->
+        <div id="form-animated-wrapper" class="form-animated-wrapper">
+          <form id="contactForm">
+            <div>
+              <label>Your Name</label>
+              <input type="text" id="userName" placeholder="Enter your name" required />
+            </div>
+
+            <div>
+              <label>Your Email</label>
+              <input type="email" id="userEmail" placeholder="Enter your email" required />
+            </div>
+
+            <div>
+              <label>Topic / Subject</label>
+              <input type="text" id="userSubject" placeholder="Enter the topic" required />
+            </div>
+
+            <div>
+              <label>Your Message</label>
+              <textarea
+                id="userMessage"
+                rows="4"
+                placeholder="Type your message..."
+                required
+              ></textarea>
+            </div>
+
+            <div class="contact-buttons-wrapper">
+              <button type="button" onclick="sendWhatsApp()" class="whatsapp-btn-submit">
+                <i class="fa-brands fa-whatsapp"></i> Through WhatsApp
+              </button>
+              <button type="button" onclick="sendEmail()" class="email-btn-submit">
+                <i class="fa-solid fa-envelope"></i> Through Email
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <h3>Follow Me</h3>
+        <ul>
+          <li><a href="https://github.com/Asadali933" target="_blank">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/asad-ali-72815b335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/cheema__bhai__222?igsh=MWM4NHBuNDM3ZWlicA==" target="_blank">Instagram</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- GSAP Libraries for Animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script>
+      function sendWhatsApp() {
+        const name = document.getElementById("userName").value;
+        const email = document.getElementById("userEmail").value;
+        const subject = document.getElementById("userSubject").value;
+        const message = document.getElementById("userMessage").value;
+
+        const myNumber = "923021627377";
+
+        if (name && email && subject && message) {
+          const text = `*New Inquiry*%0A%0A*Name:* ${name}%0A*Email:* ${email}%0A*Topic:* ${subject}%0A*Message:* ${message}`;
+          const whatsappUrl = `https://wa.me/${myNumber}?text=${text}`;
+          window.open(whatsappUrl, "_blank");
+        } else {
+          alert("Please fill all fields before sending.");
+        }
+      }
+
+      function sendEmail() {
+        const name = document.getElementById("userName").value;
+        const email = document.getElementById("userEmail").value;
+        const subject = document.getElementById("userSubject").value;
+        const message = document.getElementById("userMessage").value;
+
+        const myEmail = "asadalicheema520@gmail.com";
+
+        if (name && email && subject && message) {
+          const bodyText = `Hello, My name is ${name}.%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${message}`;
+          const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${myEmail}&su=${encodeURIComponent(subject)}&body=${bodyText}`;
+          window.open(gmailUrl, "_blank");
+        } else {
+          alert("Please fill all fields before sending.");
+        }
+      }
+
+      /* GSAP Sequence: Walk In -> Drop Bag -> Form Emerges -> Character Turns & Walks Away */
+      gsap.registerPlugin(ScrollTrigger);
+
+      window.addEventListener("DOMContentLoaded", () => {
+        const charWrapper = document.getElementById("character-wrapper");
+        const formWrapper = document.getElementById("form-animated-wrapper");
+        const briefcase = document.getElementById("briefcase");
+        const armL = document.getElementById("arm-l");
+        const legL = document.getElementById("leg-l");
+        const legR = document.getElementById("leg-r");
+
+        // Set Initial Positions
+        gsap.set(charWrapper, { x: -350, y: 120, opacity: 1, scaleX: 1 });
+        gsap.set(formWrapper, { scale: 0, opacity: 0, y: 80, transformOrigin: "bottom center" });
+
+        // Leg Walking Loop
+        const walkAnimation = gsap.timeline({ repeat: -1, paused: true, yoyo: true });
+        walkAnimation
+          .to(legL, { duration: 0.22, attr: { d: "M 80 160 L 65 210" }, ease: "power1.inOut" })
+          .to(legR, { duration: 0.22, attr: { d: "M 120 160 L 135 210" }, ease: "power1.inOut" }, 0);
+
+        // Master ScrollTrigger Sequence
+        const masterTl = gsap.timeline({
+          scrollTrigger: {
+            trigger: "#contact",
+            start: "top 75%",
+            once: true
+          }
+        });
+
+        masterTl
+          // 1. Character Walks In from Left
+          .to(charWrapper, {
+            x: 0,
+            duration: 2.5,
+            ease: "power1.inOut",
+            onStart: () => walkAnimation.play(),
+            onComplete: () => walkAnimation.pause()
+          })
+          // 2. Character Stops & Drops Bag
+          .to(briefcase, {
+            y: 75,
+            x: -5,
+            duration: 0.5,
+            ease: "bounce.out"
+          })
+          .to(armL, { attr: { d: "M 68 100 L 55 140" }, duration: 0.3 }, "<")
+          // 3. Form Emerges Magically from the Bag
+          .to(formWrapper, {
+            scale: 1,
+            opacity: 1,
+            y: 0,
+            duration: 1.0,
+            ease: "back.out(1.5)"
+          })
+          .to(briefcase, { opacity: 0, duration: 0.4 }, "-=0.3")
+          // 4. Character Turns Around & Walks Back Out towards Left
+          .to(charWrapper, {
+            scaleX: -1, // Flip character horizontally to face left
+            duration: 0.3,
+            delay: 0.3
+          })
+          .to(charWrapper, {
+            x: -400,
+            duration: 2.2,
+            ease: "power1.in",
+            onStart: () => walkAnimation.play(),
+            onComplete: () => {
+              walkAnimation.pause();
+              gsap.set(charWrapper, { display: "none" }); // Hide after exit
+            }
+          });
+      });
+    </script>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <h2 class="footer-logo">CHEEMA BHAI</h2>
+
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="footer-social">
+          <a
+            href="https://github.com/Asadali933"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/asad-ali-72815b335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/cheema__bhai__222?igsh=MWM4NHBuNDM3ZWlicA=="
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+
+        <p class="footer-copy">&copy; 2026 ASAD CHEEMA. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
